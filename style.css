@@ -123,14 +123,22 @@ nav,ul,li,a {
 .fourth-section {
         height: 500px;
         background-color: white;
-        display: flex;       
+        display: flex;
+        margin: 10px 10% 0 10%;
+        width: 80%;   
 }
 
 .fourth-section > div:first-child {
     width: 40%;
-    border: 1px solid black;
 }
-
+.fourth-section > div:last-child {
+    width: 60%;
+}
+.fourth-section > div > img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
 .check-list {
     list-style-image: url('/images/select_check_box.png');
     display: inline-block;
