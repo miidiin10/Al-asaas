@@ -69,6 +69,8 @@ nav,ul,li,a {
     width: 70%;
 }
 
+
+
 /* section > img {
     border: 1px solid white;
     border-radius: 50%;
@@ -116,4 +118,21 @@ nav,ul,li,a {
     margin: 3px;
     padding: 10px;
     flex: 1;
+}
+
+.fourth-section {
+        height: 500px;
+        background-color: white;
+        display: flex;       
+}
+
+.fourth-section > div:first-child {
+    width: 40%;
+    border: 1px solid black;
+}
+
+.check-list {
+    list-style-image: url('/images/select_check_box.png');
+    display: inline-block;
+    margin: 0 5px;
 }
