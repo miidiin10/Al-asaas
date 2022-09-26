@@ -165,3 +165,44 @@ nav,ul,li,a {
     margin: 10px;
     padding: 30px;
 }
+
+footer {
+    background-color: #4EB980;
+}
+.row{
+    display: flex;
+    width: 60%;
+    margin: 35px 20% 0 20%;
+
+}
+.row-1 {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #4EB980;
+    outline: 1px solid white;
+    border: none;
+    padding: 5px;
+}
+
+.row-2 {
+    width: 60%;
+    margin: 15px 20% 0 20%;
+    border-radius: 10px;
+    background-color: #4EB980;
+    outline: 1px solid white;
+    border: none;
+    padding: 5px;
+}
+.row-3 {
+    width: 20%;
+    margin: 10px 40% 0 40%;
+    border-radius: 10px;
+    height: 30px;
+    background-color: white;
+    outline: 1px solid white;
+    border: none;
+    padding: 5px;
+    color: #4EB980;
+}
